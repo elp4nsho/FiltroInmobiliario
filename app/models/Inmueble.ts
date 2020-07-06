@@ -46,6 +46,9 @@ Inmueble.init({
     },
     raw: {
         type: DataTypes.STRING
+    },
+    foto:{
+        type: DataTypes.STRING
     }
 }, {
     // Other model options go here

@@ -1,7 +1,7 @@
 import * as Sql from "sequelize";
 import sequelize, {Sequelize} from "sequelize";
 
-class Conector {
+export default class Conector {
     private static host: string = "localhost";
     private static port: number = 5432;
     private static user: string = "postgres";
@@ -21,5 +21,3 @@ class Conector {
 
 
 }
-
-export default Conector
