@@ -8,7 +8,7 @@ import DormitorioRoute from "./routes/Dormitorio";
 import ScrapingRoute from "./routes/ScrapingRoute";
 class App {
     public express: express.Application;
-    private port: number = 8080;
+    private port: number = 80;
 
     constructor() {
 
